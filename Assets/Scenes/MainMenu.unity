@@ -4001,7 +4001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 62}
+  m_AnchoredPosition: {x: -428, y: 76}
   m_SizeDelta: {x: 150.7, y: 101.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965183664
@@ -4028,20 +4028,22 @@ MonoBehaviour:
 
 
     Your
-    trused thermometer has two forms:
+    trusted thermometer has two forms:
 
 
     Melee: Gain bonus attack for each attack
     and knockback enemies
 
-    Ranged: Gain bonus crit chance for each attack
+    At 8 melee attacks switch to ranged
+
+    Ranged: Gain
+    bonus crit chance for each attack
+
+    At 8 ranged attacks switch to melee
 
 
-    Each
-    attack in melee form charges up to range and visa versa
-
-
-    GOOD LUCK'
+    GOOD
+    LUCK'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4076,7 +4078,7 @@ MonoBehaviour:
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 1
-  m_textAlignment: 514
+  m_textAlignment: 513
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -4110,10 +4112,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1965183664}
-    characterCount: 290
+    characterCount: 301
     spriteCount: 0
-    spaceCount: 51
-    wordCount: 48
+    spaceCount: 52
+    wordCount: 50
     linkCount: 0
     lineCount: 11
     pageCount: 1
